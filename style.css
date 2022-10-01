@@ -1,0 +1,77 @@
+header {
+    font-size: 100px;
+    text-align: center;
+}
+.backgroundGraphic {
+    background: linear-gradient(to top, rgba(60, 124, 41, 0.959), rgb(197, 243, 255));
+}
+#plantDisplay {
+    width: 15%;
+}
+
+
+
+
+
+
+.upperGraphic {
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    margin-right: 7px;
+}
+
+.shopHeader {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    border:rgb(75, 57, 30) solid 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(82, 117, 117);
+}
+
+.shopContainer {
+        /* Issue with right border scaling when .shopItem display:none */
+    display: flex;
+    background-color: cadetblue;
+    border:rgb(138, 99, 41) solid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow:scroll;
+    max-height: 35vh;
+    min-height: 35vh;
+    max-width: 100vw;
+    min-width: 99vw;
+}
+.shopContainer::-webkit-scrollbar{
+    display: none;
+}
+.shopItem {
+        /* Issue with right border scaling when display:none */
+    display: flex;
+    flex-direction: row;
+    border: solid 5px;
+    border-radius: 5px;
+    border-color: rgb(138, 99, 41);
+    width: 20%;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    background-color: rgb(122, 151, 75);
+}
+.itemHide {
+    display:none;
+}

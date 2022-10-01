@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Farm</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" defer src="script.js"></script>
+</head>
+<body>
+    <main class="backgroundGraphic">
+        <header>Magic Farmer</header>
+        
+        <main class="upperGraphic">
+            <h1>Crops:<scan id="score">0</scan></h1>
+            
+            <div class="counterGraphic">
+                <p id="scoreModifierAmount">0</p>
+                <p class="secondCounter">crops per second</p>
+                <img ID="plantDisplay" src="images/SproutIcon.png" alt="Plant Icon">
+            </div>
+        </main>
+    </main>
+    <footer class="shop">
+        <div class="shopHeader">Item Shop</div>
+        
+       <div class="shopContainer" id="shopContainer">
+<!------------------- Item 1 ------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide1">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Trowel</h1>
+                    <button id="item1Button">Buy</button>
+                </div>
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned:<span id="item1Owned">0</span></p>
+                    <p>Crops per Second: 1</p>
+                    <p>Cost:<span id="item1Cost">20</span> crops</p>
+                </div>
+            </div>       
+<!--------------------Item 2--------------------------------------------------->
+              <div class="shopItem itemHide" id="itemHide2">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Shovel</h1>
+                    <button id="item2Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id="item2Owned">0</span></p>
+                    <p>Crops per Second: 2</p>
+                    <p>Cost:<span id="item2Cost">30</span> crops</p>
+                </div>
+            </div>       
+<!-------------------Item 3---------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide3">
+             <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Fertilizer</h1>
+                    <button id="item3Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id="item3Owned">0</span></p>
+                    <p>Crops per Second: 5</p>
+                    <p>Cost: <span id="item3Cost">50</span> crops</p>
+                </div>
+            </div>   
+<!-------------------Item 4---------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide4">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Plow</h1>
+                    <button id="item4Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id="item4Owned">0</span></p>
+                    <p>Crops per Second: 10</p>
+                    <p>Cost: <span id="item4Cost">70</span> crops</p>
+                </div>
+            </div>     
+<!-------------------Item 5--------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide5">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Horse</h1>
+                    <button id="item5Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id="item5Owned">0</span></p>
+                    <p>Crops per Second: 25</p>
+                    <p>Cost: <span id="item5Cost">200</span> crops</p>
+                </div>
+            </div>     
+<!------------------Item 6----------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide6">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Magic Beans</h1>
+                    <button id="item6Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id="item6Owned">0</span></p>
+                    <p>Crops per Second: 50</p>
+                    <p>Cost: <span id="item6Cost">450</span> crops</p>
+                </div>
+            </div>     
+<!------------------Item 7----------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide7">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Farm Sprite</h1>
+                    <button id="item7Button">Buy</button>
+                </div>
+
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id='item7Owned'>0</span></p>
+                    <p>Crops per Second: 100</p>
+                    <p>Cost: <span id="item7Cost">750</span> crops</p>
+                </div>
+            </div>     
+<!------------------Item 8---------------------------------------------------->
+            <div class="shopItem itemHide" id="itemHide8">
+                <!-- Item title and button on left side -->
+                <div class="iNameArea">
+                    <h1 class="itemName">Farm Golem</h1>
+                    <button id="item8Button">Buy</button>
+                </div>
+            
+                <div class="itemStatArea">
+                <!-- Item description and quantities on right side -->
+                    <p>Amount Owned: <span id='item8Owned'>0</span></p>
+                    <p>Crops per Second: 200</p>
+                    <p>Cost: <span id="item8Cost">2000</span> crops</p>
+                </div>
+            </div>     
+        
+        </div>
+
+    </footer>
+</body>
+</html>
